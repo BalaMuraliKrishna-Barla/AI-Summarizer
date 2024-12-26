@@ -37,7 +37,7 @@ function App() {
 
     try {
       // Call your API endpoint
-      const response = await fetch('http://localhost:3000/summarize', {
+      const response = await fetch('https://minimizer-server.onrender.com/summarize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
